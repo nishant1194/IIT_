@@ -1,0 +1,37 @@
+
+nav{
+    margin: 0.22px 0px 0px 0px;
+    background-color: rgb(33,37,41);
+}
+
+.form-inline{
+    margin: 0px 0px 0px 100px;
+}
+
+.logoo{
+    margin: 0px 20px 0px 50px ;
+}
+
+
+@media(max-width:1180px) and (min-width:765px ){
+    .form-inline{
+        display: none;
+    }
+
+}
+
+@media(max-width:400px){
+    .navbar-brand{
+        display: none;
+    }
+
+}
+
+@media(max-width:760px){
+    .logoo{
+        margin: 0px 0px 0px 15px ;
+    }
+
+}
+
+

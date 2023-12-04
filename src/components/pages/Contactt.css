@@ -1,0 +1,19 @@
+.line{
+    height: 4px;
+    margin: 30px 40px 30px 40px ;
+    background-color: rgb(190, 190, 205);
+}
+
+.line2{
+    height: 4px;
+  
+    background-color: rgb(190, 190, 205);
+}
+
+.para{
+   
+    font-size: larger;
+    font-weight: 400;
+    line-height: 200%;
+  
+}

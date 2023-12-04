@@ -1,0 +1,26 @@
+
+
+.line2{
+    height: 4px;
+  
+    background-color: rgb(190, 190, 205);
+}
+
+.para{
+    text-align: justify;
+    font-size: larger;
+    font-weight: 400;
+    line-height: 200%;
+  
+}
+
+
+@media(max-width:600px){
+
+    .col-md-12{
+        padding: 0px 20px 0px 20px;
+
+    }
+
+    
+}

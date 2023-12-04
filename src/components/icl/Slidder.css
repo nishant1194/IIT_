@@ -1,0 +1,15 @@
+
+
+@media(max-width:600px){
+
+        .d-block{
+            height: 200px;
+        }
+}
+
+@media(min-width:770px){
+
+    .d-block{
+        height: 370px;
+    }
+}
