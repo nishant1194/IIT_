@@ -141,7 +141,7 @@ function InvitedTalkSeries() {
                   </p>
                   <div class="mb-1 text-muted card-text">Feb 16, 2023 </div>
                   <p>
-                  Dr. Abhay kumar sah had done his Ph.D. from IIT Kanpur in 2017. Wireless Communication, 5G and beyond Systems, Next Generation Massive MIMO Systems, Intelligent Wireless Systems, Applications of AI and Deep Learning 
+                  Dr. Abhay kumar sah had done his Ph.D. from IIT Kanpur in 2017. Wireless Communication, 5G and beyond Systems, Next Generation Massive MIMO Systems, Intelligent Wireless Systems, Applications of AI and Deep Learning. 
                   </p>
                 </div>
               </div>
