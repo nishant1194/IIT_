@@ -21,7 +21,7 @@ function Sponser() {
                   fontSize: "40px",
                 }}
               >
-                Sponsers
+                Sponsors
               </h1>
               <div className="line2"></div>
             </div>

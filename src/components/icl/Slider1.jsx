@@ -9,9 +9,7 @@ function Slider1() {
   return (
 
        <div>
-
-
-
+        
 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel" data-interval="3000">
 
   <div className="carousel-inner">

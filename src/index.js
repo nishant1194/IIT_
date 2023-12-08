@@ -18,6 +18,8 @@ import Gallary from './components/pages/Gallary';
 import Workshop from './components/pages/Workshop';
 import InvitedTalkSeries from './components/pages/InvitedTalkSeries';
 import Sponser from './components/pages/Sponser';
+import ResearchDay23 from './components/pages/ResearchDay23';
+import ResearchDay22 from './components/pages/ResearchDay22';
 
 const router = createBrowserRouter([
   {
@@ -61,6 +63,18 @@ const router = createBrowserRouter([
   {
     path: "/sponser",
     element: <Sponser / >,
+    
+  },
+
+  {
+    path: "/researchday22",
+    element: <ResearchDay23 / >,
+    
+  },
+
+  {
+    path: "/researchday23",
+    element: <ResearchDay22 / >,
     
   },
   

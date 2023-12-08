@@ -4,10 +4,18 @@ import Slider1 from "../icl/Slider1";
 import Footer from "../icl/Footer";
 import "./ResearchDayy.css";
 import AbhayShah from "../images/AbahyShah.jpg";
-import Gallary6 from "../gallaryimg/gallary6.jpg";
-import Pratush from "../images/Pratush.jpg";
 import Narayan from "../images/Narayan_Tripathi.jpg";
 import BFrenandes from "../images/BFrenandes.jpg";
+import Capture from "../images/Capture.jpg";
+import Capture1 from "../images/Capture1.jpg";
+// import Capture2 from "../images/Capture2.jpg";
+import Capture3 from "../images/Capture3.jpg";
+import Capture4 from "../images/Capture4.jpg";
+import Capture5 from "../images/Capture5.jpg";
+import Capture6 from "../images/Capture6.jpg";
+// import Capture7 from "../images/Capture7.jpg";
+// import Capture8 from "../images/Capture8.jpg";
+
 
 
 function InvitedTalkSeries() {
@@ -42,7 +50,7 @@ function InvitedTalkSeries() {
             <div className="row g-0">
               <div className="col-md-4">
                 <img
-                  src={Pratush}
+                  src={Capture}
                   className="img-fluid rounded-start"
                   alt="..."
                   style={{ height: "240px", width: "100%" }}
@@ -93,17 +101,17 @@ function InvitedTalkSeries() {
 
                   <div class="mb-1 text-muted">Jan 25, 2023</div>
                   <p>
-                    Dr.Amitava DasGupta received the B.E. degree in Electronics
+                    {/* Dr.Amitava DasGupta received the B.E. degree in Electronics
                     and Telecommunication Engineering from Jadavpur
                     University,Kolkata, India in 1982, M.Tech degree in
                     Electrical Engineering from I.I.T. Madras in 1984 and Ph.D
-                    from I.I.T. Kharagpur in 1988.
+                    from I.I.T. Kharagpur in 1988. */}
                   </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <img
-                  src={Gallary6}
+                  src={Capture1}
                   className="img-fluid rounded-start"
                   alt="..."
                   style={{ height: "100%", width: "100%" }}
@@ -178,7 +186,7 @@ function InvitedTalkSeries() {
               </div>
               <div className="col-md-4">
                 <img
-                  src={Gallary6}
+                  src={Capture3}
                   className="img-fluid rounded-start"
                   alt="..."
                   style={{ height: "100%", width: "100%" }}
@@ -195,7 +203,7 @@ function InvitedTalkSeries() {
             <div className="row g-0">
               <div className="col-md-4">
                 <img
-                  src={Pratush}
+                  src={Capture4}
                   className="img-fluid rounded-start"
                   alt="..."
                   style={{ height: "100%", width: "100%" }}
@@ -251,7 +259,7 @@ function InvitedTalkSeries() {
               </div>
               <div className="col-md-4">
                 <img
-                  src={Gallary6}
+                  src={Capture5}
                   className="img-fluid rounded-start"
                   alt="..."
                   style={{ height: "100%", width: "100%" }}
@@ -268,7 +276,7 @@ function InvitedTalkSeries() {
             <div className="row g-0">
               <div className="col-md-4">
                 <img
-                  src={Pratush}
+                  src={Capture6}
                   className="img-fluid rounded-start"
                   alt="..."
                   style={{ height: "100%", width: "100%" }}
@@ -290,7 +298,7 @@ function InvitedTalkSeries() {
                   </p>
                   <div class="mb-1 text-muted card-text">Oct 16, 2021 </div>
                   <p>
-                  Department of Electrical Engineering, IISc Bangalore
+                  {/* Department of Electrical Engineering, IISc Bangalore */}
                   </p>
                 </div>
               </div>
@@ -320,13 +328,13 @@ function InvitedTalkSeries() {
                   </p>
                   <div class="mb-1 text-muted">July 7, 2023</div>
                   <p>
-                  Atal Bihari Bajpayee - Indian Institute of Information Technology and management, Gwalior.
+                  {/* Atal Bihari Bajpayee - Indian Institute of Information Technology and management, Gwalior. */}
                   </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <img
-                  src={Gallary6}
+                  src={Capture6}
                   className="img-fluid rounded-start"
                   alt="..."
                   style={{ height: "100%", width: "100%" }}
@@ -365,7 +373,7 @@ function InvitedTalkSeries() {
                   </p>
                   <div class="mb-1 text-muted card-text">April 7th, 2023 </div>
                   <p>
-                  Department of Electrical Engineering, IISc Bangalore
+                  {/* Department of Electrical Engineering, IISc Bangalore */}
                   </p>
                 </div>
               </div>

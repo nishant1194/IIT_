@@ -42,7 +42,7 @@ function Navbar() {
             <li className="nav-item active dropdown">
               <Link
                 className="nav-link dropdown-toggle"
-                to="/"
+                
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -63,14 +63,32 @@ function Navbar() {
                 <li></li>
               </ul>
             </li>
-            <li className="nav-item" style={{ marginLeft: "3px" }}>
+            <li className="nav-item active dropdown">
               <Link
-                className="nav-link active"
-                aria-current="page"
-                to="/researchday"
+                className="nav-link dropdown-toggle"
+                
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
                 EE-RSF Research Day
               </Link>
+              <ul className="dropdown-menu">
+                <li>
+                  <Link className="dropdown-item" to="/researchday">
+                    2024
+                  </Link>
+                  <Link className="dropdown-item" to="/researchday23">
+                    2023
+                  </Link>
+                  <Link className="dropdown-item" to="/researchday22">
+                    2022
+                  </Link>
+                </li>
+                <li></li>
+              </ul>
             </li>
             <li className="nav-item">
               <Link className="nav-link active" to="/team">
@@ -79,7 +97,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/sponser">
-                Sponser
+                Sponsor
               </Link>
             </li>
             <li className="nav-item">

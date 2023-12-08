@@ -14,9 +14,9 @@ function Footer() {
                 Follow Us
               </h4>
               <hr style={{backgroundColor :"white"}} />
-              <div className="py-1"> <a className="text-decoration-none text-white" to="www.facebook.com">Facebook</a></div>
-               <div className="py-1"> <a className="text-decoration-none text-white" href="https://www.linkedin.com/company/ee-rsf-iit-ropar/">LinkedIn</a> </div>
-               <div className="py-1"> <a className="text-decoration-none text-white" to="www.twitter.com">Twitter</a></div>
+              <div className="py-1"> <a className="text-decoration-none text-white" href="https://instagram.com/eersf_iitropar?utm_source=qr&igshid=MThlNWY1MzQwNA==" target="_blank">Instagram</a></div>
+               <div className="py-1"> <a className="text-decoration-none text-white" href="https://www.linkedin.com/company/ee-rsf-iit-ropar/" target="_blank">LinkedIn</a> </div>
+               {/* <div className="py-1"> <a className="text-decoration-none text-white" to="www.twitter.com">Twitter</a></div> */}
          
 
             </div>

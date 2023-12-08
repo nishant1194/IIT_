@@ -7,7 +7,7 @@ import Annadhu from "../images/Annadhu.jpg"
 import Satyam from "../images/Satyamsir.jpg"
 import Annima from "../images/Annima.jpg"
 import Sagnikk from "../images/Sagnikpresi.jpg"
-import Nishant from "../images/Nishant.jpg"
+import Nishant from "../images/Nishant.jpeg"
 import Shiv from "../images/Shiv.jpg"
 import Shiv_socialmedia from "../images/Shiv_socialmedia.jpg"
 import Suraj from "../images/Suraj.jpeg"
@@ -16,6 +16,8 @@ import Ranjeet from "../images/Ranjeet.jpg"
 import Ankush from "../images/Ankush.jpg"
 import Azhar from "../images/Azhar.jpg"
 import Praveen from "../images/Praveen.jpg"
+import Kisor from "../images/kisor.jpeg"
+
 
 
 
@@ -88,7 +90,7 @@ function Team() {
                 />
                 <div className="card-body">
                   <h5 className="card-title" style={{ fontSize: "25px" }}>
-                    DR. SATYAM AGARWAL
+                    Dr. SATYAM AGARWAL
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
                     Assistant Professor,
@@ -131,6 +133,31 @@ function Team() {
       <section>
         <div className="container text-center py-1">
           <div className="row row-cols-1 row-cols-md-3 g-4">
+
+          <div className="col" >
+              <div className="card">
+                <img
+                  src={Sagnikk}
+                  className="card-img-top"
+                  alt="..."
+                  style={{
+                    height: "250px",
+                    width: "250px",
+                    borderRadius: "50%",
+                    margin: "auto",
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title" style={{ fontSize: "25px" }}>
+                   Sagnik Bhattacharyya
+                  </h5>
+                  <p className="card-text" style={{ fontSize: "20px" }}>
+                    President of RSF<br /> <span style={{visibility:"hidden"}}>....</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
              {/* demonstration */}
              <div className="col">
               <div className="card">
@@ -157,30 +184,7 @@ function Team() {
               </div>
             </div>
 
-            <div className="col" >
-              <div className="card">
-                <img
-                  src={Sagnikk}
-                  className="card-img-top"
-                  alt="..."
-                  style={{
-                    height: "250px",
-                    width: "250px",
-                    borderRadius: "50%",
-                    margin: "auto",
-                  }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title" style={{ fontSize: "25px" }}>
-                    Sagnik Bhatacharya
-                  </h5>
-                  <p className="card-text" style={{ fontSize: "20px" }}>
-                    President of RSF
-                  </p>
-                </div>
-              </div>
-            </div>
-
+           
             
               {/* postr presentation */}
           <div className="col">
@@ -231,53 +235,11 @@ function Team() {
           <div className="row row-cols-1 row-cols-md-3 g-4">
            
   
-          <div className="col">
-              <div className="card">
-                <img
-                  src={Ankush}
-                  className="card-img-top"
-                  alt="..."
-                  style={{
-                    height: "250px",
-                    width: "250px",
-                    borderRadius: "50%",
-                    margin: "auto",
-                  }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title" style={{ fontSize: "25px" }}>
-                    Ankush
-                  </h5>
-                  <p className="card-text" style={{ fontSize: "20px" }}>
-                  Coordinator <br/> Publicity and Social Media
-                  </p>
-                </div>
-              </div>
-            </div>
+          
+
+           
+            
             {/* circuit design */}
-            <div className="col" >
-              <div className="card">
-                <img
-                  src={Praveen}
-                  className="card-img-top"
-                  alt="..."
-                  style={{
-                    height: "250px",
-                    width: "250px",
-                    borderRadius: "50%",
-                    margin: "auto",
-                  }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title" style={{ fontSize: "25px" }}>
-                   Praveen
-                  </h5>
-                  <p className="card-text" style={{ fontSize: "20px" }}>
-                    Coordinator <br/> Circuit Design
-                  </p>
-                </div>
-              </div>
-            </div>
 
             <div className="col">
               <div className="card">
@@ -299,6 +261,59 @@ function Team() {
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
                     Coordinator <br/> Circuit Design
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="col" >
+              <div className="card">
+                <img
+                  src={Praveen}
+                  className="card-img-top"
+                  alt="..."
+                  style={{
+                    height: "250px",
+                    width: "250px",
+                    borderRadius: "50%",
+                    margin: "auto",
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title" style={{ fontSize: "25px" }}>
+                   Praveen
+                  </h5>
+                  <p className="card-text" style={{ fontSize: "20px" }}>
+                    Member <br/> Circuit Design
+                  </p>
+                </div>
+              </div>
+            </div>
+
+           
+             
+             {/* event management */}
+
+            <div className="col">
+              <div className="card">
+                <img
+                  src={Kisor}
+                  className="card-img-top"
+                  alt="..."
+                  style={{
+                    height: "250px",
+                    width: "250px",
+                    borderRadius: "50%",
+                    margin: "auto",
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title" style={{ fontSize: "25px" }}>
+                    Kishor
+                  </h5>
+                  <p className="card-text" style={{ fontSize: "20px" }}>
+                  Coordinator <br/> Event Managment
                   </p>
                 </div>
               </div>
@@ -334,11 +349,12 @@ function Team() {
                     Shiv Kumar
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                    Coordinatior <br /> Social Media
+                    Coordinatior <br /> Social media and Web designing
                   </p>
                 </div>
               </div>
             </div>
+
             <div className="col">
               <div className="card">
                 <img
@@ -357,12 +373,76 @@ function Team() {
                     Nishant
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                  Coordinator <br/> Web Manager
+                  Member <br/> Web Manager
                   </p>
                 </div>
               </div>
             </div>
+         
+            
             <div className="col">
+              <div className="card">
+                <img
+                  src={Ankush}
+                  className="card-img-top"
+                  alt="..."
+                  style={{
+                    height: "250px",
+                    width: "250px",
+                    borderRadius: "50%",
+                    margin: "auto",
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title" style={{ fontSize: "25px" }}>
+                    Ankush
+                  </h5>
+                  <p className="card-text" style={{ fontSize: "20px" }}>
+                  Member <br/> Social media and Web designing
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section>
+        <div className="container text-center py-5">
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+          <div className="col" >
+              <div className="card">
+                <img
+                  src={Annadhu}
+                  className="card-img-top"
+                  alt="..."
+                  style={{
+                    height: "250px",
+                    width: "250px",
+                    borderRadius: "50%",
+                    margin: "auto",
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title" style={{ fontSize: "25px" }}>
+                  Anandhu
+                  </h5>
+                  <p className="card-text" style={{ fontSize: "20px" }}>
+                  Coordinator <br/> Publicity
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          <div className="col">
               <div className="card">
                 <img
                   src={Annima}
@@ -385,20 +465,7 @@ function Team() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-    </section>
 
-
-
-
-
-
-
-
-    <section>
-        <div className="container text-center py-5">
-          <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
               <div className="card">
                 <img
@@ -417,14 +484,23 @@ function Team() {
                     Ranjeet
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                  Coordinator <br/> Alumini Relation
+                Member <br/> Alumini Relation
                   </p>
                 </div>
               </div>
             </div>
 
-          
-            <div className="col">
+             
+
+          </div>
+        </div>
+    </section>
+
+    <section>
+        <div className="container text-center " style={{marginBottom:"60px"}}>
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+          <div className="col">
               <div className="card">
                 <img
                   src={Azhar}
@@ -442,12 +518,37 @@ function Team() {
                     Azhar
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                  Coordinator <br/> Publicity
+                  Member <br/> Publicity
                   </p>
                 </div>
               </div>
             </div>
-              <div className="col" >
+
+            <div className="col" style={{visibility:"hidden"}}>
+              <div className="card">
+                <img
+                  src={Ranjeet}
+                  className="card-img-top"
+                  alt="..."
+                  style={{
+                    height: "250px",
+                    width: "250px",
+                    borderRadius: "50%",
+                    margin: "auto",
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title" style={{ fontSize: "25px" }}>
+                    Ranjeet
+                  </h5>
+                  <p className="card-text" style={{ fontSize: "20px" }}>
+                Member <br/> Alumini Relation
+                  </p>
+                </div>
+              </div>
+            </div>
+
+              <div className="col"style={{visibility:"hidden"}}>
               <div className="card">
                 <img
                   src={Annadhu}
@@ -462,7 +563,7 @@ function Team() {
                 />
                 <div className="card-body">
                   <h5 className="card-title" style={{ fontSize: "25px" }}>
-                    Annadhu
+                  Anandhu
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
                   Coordinator <br/> Publicity
@@ -471,19 +572,15 @@ function Team() {
               </div>
             </div>
 
-
-          
-
-
           </div>
         </div>
     </section>
 
 
+    
 
 
-
-
+            
 
 
 
