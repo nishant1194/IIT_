@@ -36,7 +36,7 @@ function Navbar() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">
-                Homee
+                Home
               </Link>
             </li>
             <li className="nav-item active dropdown">
@@ -77,6 +77,9 @@ function Navbar() {
               </Link>
               <ul className="dropdown-menu">
                 <li>
+                <Link className="dropdown-item" to="/rsfday">
+                   EE-RSF Research Day
+                  </Link>
                   <Link className="dropdown-item" to="/researchday">
                     2024
                   </Link>
@@ -85,7 +88,7 @@ function Navbar() {
                   </Link>
                   <Link className="dropdown-item" to="/researchday22">
                     2022
-                  </Link>
+                  </Link> 
                 </li>
                 <li></li>
               </ul>
@@ -129,5 +132,7 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
 
 
