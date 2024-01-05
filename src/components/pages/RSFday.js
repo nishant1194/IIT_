@@ -27,7 +27,7 @@ function RSFday() {
               </div>
               <div className="line2"></div>
 
-              <div className="heading py-3">INTRODUCTION</div>
+              <div className="heading py-3">INTRODUCTION : </div>
 
               <p className="para">
                 Welcome to the Research Scholar Forum (RSF) Day, a premier event
@@ -42,7 +42,7 @@ function RSFday() {
                 across the region."
               </p>
 
-              <div className="heading ">AGENDA</div>
+              <div className="heading ">AGENDA : </div>
 
               <p className="para py-3">
                 RSF Day is a day packed with dynamic activities designed to
