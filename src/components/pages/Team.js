@@ -178,7 +178,7 @@ function Team() {
                     Suraj
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                    Coordinator <br/> Demonstration
+                    Member <br/> Demonstration
                   </p>
                 </div>
               </div>
@@ -206,7 +206,7 @@ function Team() {
                     Shiv Kumar
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                    Coordinator <br/> Poster Presentation
+                    Member <br/> Poster Presentation
                   </p>
                 </div>
               </div>
@@ -260,7 +260,7 @@ function Team() {
                     Shivam
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                    Coordinator <br/> Circuit Design
+                    Member <br/> Circuit Design
                   </p>
                 </div>
               </div>
@@ -313,7 +313,7 @@ function Team() {
                     Kishor
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                  Coordinator <br/> Event Managment
+                  Member <br/> Event Managment
                   </p>
                 </div>
               </div>
@@ -349,7 +349,7 @@ function Team() {
                     Shiv Kumar
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                    Coordinatior <br /> Social media and Web designing
+                    Member <br /> Social media and Web designing
                   </p>
                 </div>
               </div>
@@ -436,7 +436,7 @@ function Team() {
                   Anandhu
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                  Coordinator <br/> Publicity
+                  Member <br/> Publicity
                   </p>
                 </div>
               </div>
@@ -460,7 +460,7 @@ function Team() {
                     Annima Gupta
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                  Coordinator <br/> Alumini Relation
+                  Member <br/> Alumini Relation
                   </p>
                 </div>
               </div>
@@ -566,7 +566,7 @@ function Team() {
                   Anandhu
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                  Coordinator <br/> Publicity
+                  Member <br/> Publicity
                   </p>
                 </div>
               </div>
@@ -601,5 +601,6 @@ function Team() {
 }
 
 export default Team;
+
 
 
