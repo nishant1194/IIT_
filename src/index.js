@@ -20,6 +20,7 @@ import InvitedTalkSeries from './components/pages/InvitedTalkSeries';
 import Sponser from './components/pages/Sponser';
 import ResearchDay23 from './components/pages/ResearchDay23';
 import ResearchDay22 from './components/pages/ResearchDay22';
+import RSFday from './components/pages/RSFday';
 
 const router = createBrowserRouter([
   {
@@ -75,6 +76,11 @@ const router = createBrowserRouter([
   {
     path: "/researchday23",
     element: <ResearchDay22 / >,
+    
+  },
+  {
+    path: "/rsfday",
+    element: <RSFday / >,
     
   },
   
