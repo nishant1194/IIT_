@@ -4,13 +4,14 @@ import Slider1 from '../icl/Slider1'
 import './Homee.css' ;
 import Footer from '../icl/Footer';
 
+
 function Home() {
   return (
     <div>
       <Navbar />
       <Slider1 />
 
-      <section className='py-5'>
+      <section style={{marginTop:"60px"}}>
         <div className="container ">
             <div className="row">
                 <div className="col-md-12">
@@ -41,9 +42,13 @@ function Home() {
                     </p>
                 </div>
             </div>
-              <button type="button" className="btn btn-primary btn-">Register Now</button>
-
         </div>
+      </section>
+
+
+      <section className="container" style={{alignItems:"center", marginBottom:"50px"}}>
+      <a href="/researchday"><button type="button" className="btn btn-lg btn-primary btn-block" style={{width:"50%" , border:"solid 1px black"}}>Register Now</button></a>
+
       </section>
 
       <Footer />
@@ -54,6 +59,10 @@ function Home() {
 }
 
 export default Home
+
+
+
+
 
 
 
