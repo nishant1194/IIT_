@@ -41,6 +41,8 @@ function Home() {
                     </p>
                 </div>
             </div>
+              <button type="button" className="btn btn-primary btn-">Register Now</button>
+
         </div>
       </section>
 
