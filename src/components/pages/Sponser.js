@@ -2,6 +2,10 @@ import React from "react";
 import Navbar from "../icl/Navbar";
 import "./Sponser.css";
 import IEEE from "../images/IEEE_logo.svg.png"
+import Agmatel from "../images/Agmatel.jpeg" ;
+import Rigol from "../images/Rigol.jpeg" ;
+import Keysight from "../images/Keysight.jpeg" ;
+import IeeeD from "../images/IeeeDelhi.jpeg" ;
 
 
 function Sponser() {
@@ -27,8 +31,19 @@ function Sponser() {
             </div>
 
             
-              <div className="container py-5 " style={{display:"flex" ,alignItems:"center" , justifyContent:"center"}}>
-                      <img className="card-img-top" src={IEEE} alt="..." style={{ width: "18rem" }}/>
+              <div className="container " style={{display:"flex" ,alignItems:"center" , justifyContent:"center" , paddingTop:"50px"}}>
+                      <img className="card-img-top mx-4" src={IEEE} alt="..." style={{ width: "18rem" }}/>
+                      <img className="card-img-top mx-4" src={IeeeD} alt="..." style={{ width: "18rem" }}/>
+                      <img className="card-img-top mx-4" src={Keysight} alt="..." style={{ width: "18rem" }}/>
+                     
+
+             </div>
+
+             <div className="container " style={{display:"flex" ,alignItems:"center" , justifyContent:"center"}}>
+                      
+                      <img className="card-img-top mx-4" src={Rigol} alt="..." style={{ width: "18rem" }}/>
+                      <img className="card-img-top mx-4" src={Agmatel} alt="..." style={{ width: "18rem" }}/>
+
              </div>
           </div>
         </div>
@@ -38,3 +53,4 @@ function Sponser() {
 }
 
 export default Sponser;
+
