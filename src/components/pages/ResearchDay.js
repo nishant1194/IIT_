@@ -204,5 +204,3 @@ function ResearchDay() {
 }
 
 export default ResearchDay;
-
-
