@@ -62,7 +62,7 @@ function Team() {
                   fontSize: "30px",
                 }}
               >
-                Facality Co-ordinator
+                Faculity Co-ordinator
               </h1>
               <div className="line2"></div>
             </div>
