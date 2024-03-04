@@ -6,7 +6,7 @@ function CircuitDetails() {
     <div>
         <Navbar />
       <section className="py-5">
-        <div className="container ">
+        <div className="container">
           <div className="row">
             <div className="col-md-12">
             <div className="line2"></div>
