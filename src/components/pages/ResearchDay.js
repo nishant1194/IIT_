@@ -3,7 +3,7 @@ import Navbar from "../icl/Navbar";
 import Slider1 from "../icl/Slider1";
 import "./ResearchDayy.css";
 import Footer from "../icl/Footer";
-import Poster from "../images/PosterRSF.jpg";
+import Poster from "../images/PosterRSFF.jpg";
 import { Link } from "react-router-dom";
 function ResearchDay() {
   return (
