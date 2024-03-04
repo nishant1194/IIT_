@@ -3,7 +3,8 @@ import Navbar from "../icl/Navbar";
 import Slider1 from "../icl/Slider1";
 import "./ResearchDayy.css";
 import Footer from "../icl/Footer";
-import Poster from "../images/PosterRSFF.jpg";
+import Poster from "../images/PosterRSF.jpg";
+import { Link } from "react-router-dom";
 function ResearchDay() {
   return (
     <div>
@@ -153,11 +154,11 @@ function ResearchDay() {
             Poster Presentation
             <div style={{ backgroundColor: "black", height: "2px" }}></div>
           </div>
-          <a href="https://drive.google.com/file/d/1gZd06Dg5Baryfp0Hqh9AeKPFI5Tu_MM3/view?usp=sharing"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
+          <Link to="/poster-presentaion-details"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
             {" "}
             Rulebook
           </div>
-          </a>
+          </Link>
          
          
         </div>
@@ -170,11 +171,11 @@ function ResearchDay() {
             Demonstration
             <div style={{ backgroundColor: "black", height: "2px" }}></div>
           </div>
-          <a href="https://drive.google.com/file/d/1jXhGjMvJtb1_MI8EfU781q8pBkNHAunJ/view?usp=sharing"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
+          <Link to="/demostration-details"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
             {" "}
             Rulebook
           </div>
-          </a>
+          </Link>
          
           
         </div>
@@ -187,11 +188,11 @@ function ResearchDay() {
             Circuit Designing
             <div style={{ backgroundColor: "black", height: "2px" }}></div>
           </div>
-          <a href="https://drive.google.com/file/d/1yj_dSidtd-l2BUC3BpCIESh4okgldYzF/view?usp=sharing"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
+          <Link to="/circuit-design-details"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
             {" "}
             Rulebook
           </div>
-          </a>
+          </Link>
          
          
         </div>
@@ -203,4 +204,5 @@ function ResearchDay() {
 }
 
 export default ResearchDay;
+
 
