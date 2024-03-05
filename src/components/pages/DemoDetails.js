@@ -2,7 +2,7 @@ import React from 'react'
 import DemoRulebok from "../images/DempRulebook.jpeg"
 import Navbar from '../icl/Navbar'
 
-function DemoDetails() {
+function DemoDetails(){
   return (
     <div>
         <Navbar /> 
