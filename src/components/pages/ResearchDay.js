@@ -144,7 +144,7 @@ function ResearchDay() {
           </div>
          
 
-      <section className="abc container">
+  {/*     <section className="abc container">
         <div
           className="my-2 py-1 sectionnn"
           style={{ border: "solid 2px black", borderRadius: "10px",backgroundColor:"rgb(245,245,240)"  }}
@@ -196,7 +196,7 @@ function ResearchDay() {
          
          
         </div>
-      </section>
+      </section>  */}
 
       <Footer />
     </div>
