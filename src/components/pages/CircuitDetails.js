@@ -38,4 +38,4 @@ function CircuitDetails() {
   )
 }
 
-export default CircuitDetails
+export default CircuitDetails;
