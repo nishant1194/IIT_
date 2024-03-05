@@ -24,19 +24,19 @@ function Home(){
                     <p className="para">
                         <ul className=''>
                             <li className='py-2'>
-                            Technical talks & workshops
+                            Technical talks & workshops.
                             </li>
                             <li className='py-2'>
-                            Industry Collaboration
+                            Industry Collaboration.
                             </li>
                             <li className='py-2'>
-                            Conferences/symposiums
+                            Conferences/symposiums.
                             </li>
                             <li className='py-2'>
-                            Extra-curricular activities
+                            Extra-curricular activities.
                             </li>
                             <li className='py-2'>
-                            Publish Magazines / Newsletter
+                            Publish Magazines / Newsletter.
                             </li>
                         </ul>
                     </p>
