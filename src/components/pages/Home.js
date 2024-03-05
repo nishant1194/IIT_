@@ -5,7 +5,7 @@ import './Homee.css' ;
 import Footer from '../icl/Footer';
 
 
-function Home(){
+function Home() {
   return (
     <div>
       <Navbar />
@@ -24,19 +24,19 @@ function Home(){
                     <p className="para">
                         <ul className=''>
                             <li className='py-2'>
-                            Technical talks & workshops.
+                            Technical talks & workshops
                             </li>
                             <li className='py-2'>
-                            Industry Collaboration.
+                            Industry Collaboration
                             </li>
                             <li className='py-2'>
-                            Conferences/symposiums.
+                            Conferences/symposiums
                             </li>
                             <li className='py-2'>
-                            Extra-curricular activities.
+                            Extra-curricular activities
                             </li>
                             <li className='py-2'>
-                            Publish Magazines / Newsletter.
+                            Publish Magazines / Newsletter
                             </li>
                         </ul>
                     </p>
@@ -46,8 +46,8 @@ function Home(){
       </section>
 
 
-      <section className="container" style={{alignItems:"center", marginBottom:"50px"}}>
-      <a href="/researchday"><button type="button" className="btn btn-lg btn-primary btn-block" style={{width:"50%" , border:"solid 1px black"}}>Register Now</button></a>
+      <section style={{display:"flex",alignItems:"center", justifyContent:"center", marginBottom:"50px"}}>
+      <a href="/researchday"><button type="button" className="buttonn" >To Register For EE-RSF'24 <br /> Click here</button></a>
 
       </section>
 
@@ -59,10 +59,6 @@ function Home(){
 }
 
 export default Home
-
-
-
-
 
 
 
