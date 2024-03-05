@@ -39,4 +39,4 @@ function DemoDetails(){
   )
 }
 
-export default DemoDetails
+export default DemoDetails ;
