@@ -5,7 +5,7 @@ import './Homee.css' ;
 import Footer from '../icl/Footer';
 
 
-function Home() {
+function Home(){
   return (
     <div>
       <Navbar />
