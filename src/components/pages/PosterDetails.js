@@ -100,4 +100,4 @@ function PosterDetails() {
   )
 }
 
-export default PosterDetails
+export default PosterDetails ;
