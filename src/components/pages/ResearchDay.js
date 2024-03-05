@@ -144,59 +144,58 @@ function ResearchDay() {
           </div>
          
 
-      <section className="abc container">
+      <section className="abc container my-4">
         <div
           className="my-2 py-1 sectionnn"
           style={{ border: "solid 2px black", borderRadius: "10px",backgroundColor:"rgb(245,245,240)"  }}
         >
-          <div style={{ fontSize: "30px", textAlign: "center" }}>
+         <Link to="/poster-presentaion-details"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
             {" "}
-            Poster Presentation
-            <div style={{ backgroundColor: "black", height: "2px" }}></div>
-          </div>
-          <Link to="/poster-presentaion-details"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
-            {" "}
-            Rulebook
+            Poster Presentation Details
           </div>
           </Link>
          
          
         </div>
         <div
-          className="my-2 py-1 sectionnn"
+          className="my-2 py-1 sectionnn my-4"
           style={{ border: "solid 2px black", borderRadius: "10px", backgroundColor:"rgb(245,245,240)" }}
         >
-          <div style={{ fontSize: "30px", textAlign: "center" }}>
-            {" "}
-            Demonstration
-            <div style={{ backgroundColor: "black", height: "2px" }}></div>
-          </div>
+         
           <Link to="/demostration-details"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
             {" "}
-            Rulebook
+           Idea Demonstration Details
           </div>
           </Link>
          
           
         </div>
         <div
-          className="my-2 py-1 sectionnn"
+          className="my-2 py-1 sectionnn my-4"
           style={{ border: "solid 2px black", borderRadius: "10px" ,backgroundColor:"rgb(245,245,240)" , boxShadow:"initial"}}
         >
-          <div style={{ fontSize: "30px", textAlign: "center" }}>
-            {" "}
-            Circuit Designing
-            <div style={{ backgroundColor: "black", height: "2px" }}></div>
-          </div>
           <Link to="/circuit-design-details"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
             {" "}
-            Rulebook
+           Circuit Designing Details
           </div>
           </Link>
          
          
         </div>
-      </section> 
+
+        <div
+          className="my-2 py-1 sectionnn my-4"
+          style={{ border: "solid 2px black", borderRadius: "10px" ,backgroundColor:"rgb(245,245,240)" , boxShadow:"initial"}}
+        >
+          <Link to="/paper-details"><div style={{ fontSize: "25px", textAlign: "center", color:"black" }}>
+            {" "}
+           Paper Presentation Details
+          </div>
+          </Link>
+         
+         
+        </div>
+      </section>
 
       <Footer />
     </div>
