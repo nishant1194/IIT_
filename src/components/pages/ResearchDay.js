@@ -11,7 +11,7 @@ function ResearchDay() {
       <Navbar />
       <Slider1 />
 
-      <section className="py-5">
+    {/*   <section className="py-5">
         <div className="container ">
           <div className="row">
             <div className="col-md-12">
@@ -31,7 +31,7 @@ function ResearchDay() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/*<section >
     <div className="container py-5 ">
