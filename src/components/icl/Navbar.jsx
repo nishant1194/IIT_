@@ -6,8 +6,7 @@ import "./Navbarr.css";
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-md navbar-dark" >
-     
+      <nav className="navbar navbar-expand-md navbar-dark " >
         <img
           className="logoo"
           src={Logo}
@@ -63,6 +62,12 @@ function Navbar() {
                 <li></li>
               </ul>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="/researchday">
+                EE-RSF'24
+              </Link>
+            </li>
+            
             <li className="nav-item active dropdown">
               <Link
                 className="nav-link dropdown-toggle"
@@ -125,14 +130,11 @@ function Navbar() {
 
           </form>
         </div>
-      
       </nav>
     </div>
   );
 }
 
 export default Navbar;
-
-
 
 
