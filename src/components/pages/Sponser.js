@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../icl/Navbar";
 import "./Sponser.css";
-import IEEE from "../images/IEEE_logo.svg.png"
-import Agmatel from "../images/Agmatel.jpeg" ;
-import Rigol from "../images/Rigol.jpeg" ;
-import Keysight from "../images/Keysight.jpeg" ;
-import IeeeD from "../images/IeeeDelhi.jpeg" ;
+import IEEEropar from "../images/IEEE IIT Ropar logo_cropped.png"
+import Agmatel from "../images//Agmatell.png" ;
+import Rigol from "../images/rigol new logo_black no tag-01 (1).png" ;
+import Keysight from "../images/keysight-technologies-vector-logo-2022-small.png" ;
+import IeeeCom from "../images/IEEE ComSoc.png" ;
+import IeeeVTS from "../images/IEEE_VTS logo.png" ;
 
 
 function Sponser() {
@@ -32,15 +33,16 @@ function Sponser() {
 
             
               <div className="container " style={{display:"flex" ,alignItems:"center" , justifyContent:"center" , paddingTop:"50px"}}>
-                      <img className="card-img-top mx-4" src={IEEE} alt="..." style={{ width: "18rem" }}/>
-                      <img className="card-img-top mx-4" src={IeeeD} alt="..." style={{ width: "18rem" }}/>
-                      <img className="card-img-top mx-4" src={Keysight} alt="..." style={{ width: "18rem" }}/>
+                      <img className="card-img-top mx-4" src={IeeeCom} alt="..." style={{ width: "18rem" }}/>
+                      <img className="card-img-top mx-4" src={IEEEropar} alt="..." style={{ width: "18rem" }}/>
+                      <img className="card-img-top mx-4" src={IeeeVTS} alt="..." style={{ width: "18rem" }}/>
                      
 
              </div>
 
              <div className="container " style={{display:"flex" ,alignItems:"center" , justifyContent:"center"}}>
                       
+                      <img className="card-img-top mx-4" src={Keysight} alt="..." style={{ width: "18rem" }}/>
                       <img className="card-img-top mx-4" src={Rigol} alt="..." style={{ width: "18rem" }}/>
                       <img className="card-img-top mx-4" src={Agmatel} alt="..." style={{ width: "18rem" }}/>
 
@@ -53,4 +55,5 @@ function Sponser() {
 }
 
 export default Sponser;
+
 
