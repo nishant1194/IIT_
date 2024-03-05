@@ -1,6 +1,8 @@
 import React from 'react'
 import PosterRulebook from "../images/PosterRulebook.jpeg"
 import Navbar from '../icl/Navbar'
+import './Homee.css' ;
+
 
 function PosterDetails() {
   return (
@@ -65,6 +67,19 @@ function PosterDetails() {
     </div>
   </div>
 </div> */}
+
+<section style={{marginTop:"30px", textAlign:"center"}}>
+        <div className="container ">
+            <div className="row">
+                <div className="col-md-12">
+                    <p className=' ' style={{fontSize:"25px", textAlign:"center"}} >Format for poster<a href='https://docs.google.com/presentation/d/1GIcT8Vi41iKvttLPIYpuFau2JJwQwgAb/edit#slide=id.p1'> Click here</a> </p>
+                    <p className='' style={{fontSize:"25px", textAlign:"center"}}>Submit your poster <a href='https://docs.google.com/forms/u/1/d/e/1FAIpQLSd4EMqXFRMRhlf2JlFRAFxauyaZWUQXi-B4bUjEr51dtb04hg/viewform?usp=sf_link&urp=gmail_link'>here</a></p>
+                   
+                </div>
+            </div>
+        </div>
+      </section>
+
  
 <section className="py-5">
         <div className="container ">
@@ -100,4 +115,4 @@ function PosterDetails() {
   )
 }
 
-export default PosterDetails ;
+export default PosterDetails
