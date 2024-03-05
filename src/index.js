@@ -21,8 +21,8 @@ import Sponser from './components/pages/Sponser';
 import ResearchDay23 from './components/pages/ResearchDay23';
 import ResearchDay22 from './components/pages/ResearchDay22';
 import RSFday from './components/pages/RSFday';
-import CreateWorkshop from './components/admin/CreateWorkshop';
-import CreateTalks from './components/admin/CreateTalks';
+//import CreateWorkshop from './components/admin/CreateWorkshop';
+//import CreateTalks from './components/admin/CreateTalks';
 import PosterDetails from './components/pages/PosterDetails';
 import DemoDetails from './components/pages/DemoDetails';
 import CircuitDetails from './components/pages/CircuitDetails';
@@ -88,16 +88,16 @@ const router = createBrowserRouter([
     element: <RSFday / >,
     
   },
-  {
-    path: "/create-workshop",
-    element: <CreateWorkshop / >,
+  // {
+  //   path: "/create-workshop",
+  //   element: <CreateWorkshop / >,
     
-  },
-  {
-    path: "/create-talks",
-    element: <CreateTalks />,
+  // },
+  // {
+  //   path: "/create-talks",
+  //   element: <CreateTalks />,
     
-  },
+  // },
   {
     path: "/poster-presentaion-details",
     element: <PosterDetails />,
