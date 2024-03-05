@@ -26,6 +26,7 @@ import RSFday from './components/pages/RSFday';
 import PosterDetails from './components/pages/PosterDetails';
 import DemoDetails from './components/pages/DemoDetails';
 import CircuitDetails from './components/pages/CircuitDetails';
+import PaperDeails from './components/pages/PaperDeails';
 
 const router = createBrowserRouter([
   {
@@ -87,17 +88,19 @@ const router = createBrowserRouter([
     path: "/rsfday",
     element: <RSFday / >,
     
+  } ,
+  {/* {
+    path: "/create-workshop",
+    element: <CreateWorkshop / >,
+    
   },
-  // {
-  //   path: "/create-workshop",
-  //   element: <CreateWorkshop / >,
+  {
+    path: "/create-talks",
+    element: <CreateTalks />,
     
-  // },
-  // {
-  //   path: "/create-talks",
-  //   element: <CreateTalks />,
-    
-  // },
+  }, */}
+  ,
+
   {
     path: "/poster-presentaion-details",
     element: <PosterDetails />,
@@ -111,6 +114,11 @@ const router = createBrowserRouter([
   {
     path: "/circuit-design-details",
     element: <CircuitDetails />,
+    
+  }, 
+   {
+    path: "/paper-details",
+    element: <PaperDeails />,
     
   }, 
 ]);
