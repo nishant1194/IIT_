@@ -83,21 +83,21 @@ const router = createBrowserRouter([
     element: <RSFday / >,
     
   },
-   {
-    path: "/poster-presentaion-details",
-    element: <PosterDetails />,
+  //  {
+ //   path: "/poster-presentaion-details",
+//    element: <PosterDetails />,
     
-  },
-   {
-    path: "/demostration-details",
-    element: <DemoDetails />,
+//  },
+//   {
+//    path: "/demostration-details",
+ //   element: <DemoDetails />,
+//    
+ // },
+  //{
+  //  path: "/circuit-design-details",
+   // element: <CircuitDetails />,
     
-  },
-  {
-    path: "/circuit-design-details",
-    element: <CircuitDetails />,
-    
-  }, 
+ // }, 
   
 ]);
 
