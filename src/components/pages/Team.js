@@ -17,12 +17,7 @@ import Ankush from "../images/Ankush.jpg"
 import Azhar from "../images/Azhar.jpg"
 import Praveen from "../images/Praveen.jpg"
 import Kisor from "../images/kisor.jpeg"
-
-
-
-
-
-
+import Arnav from "../images/Arnav.jpeg"
 
 function Team() {
   return (
@@ -445,7 +440,7 @@ function Team() {
           <div className="col">
               <div className="card">
                 <img
-                  src={Annima}
+                  src={Arnav}
                   className="card-img-top"
                   alt="..."
                   style={{
@@ -457,10 +452,10 @@ function Team() {
                 />
                 <div className="card-body">
                   <h5 className="card-title" style={{ fontSize: "25px" }}>
-                    Annima Gupta
+                    Arnav Hari
                   </h5>
                   <p className="card-text" style={{ fontSize: "20px" }}>
-                  Member <br/> Alumini Relation
+                  Member <br/> Publicity
                   </p>
                 </div>
               </div>
@@ -524,6 +519,33 @@ function Team() {
               </div>
             </div>
 
+ 
+
+            <div className="col">
+              <div className="card">
+                <img
+                  src={Annima}
+                  className="card-img-top"
+                  alt="..."
+                  style={{
+                    height: "250px",
+                    width: "250px",
+                    borderRadius: "50%",
+                    margin: "auto",
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title" style={{ fontSize: "25px" }}>
+                    Annima Gupta
+                  </h5>
+                  <p className="card-text" style={{ fontSize: "20px" }}>
+                  Member <br/> Alumini Relation
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
             <div className="col" style={{visibility:"hidden"}}>
               <div className="card">
                 <img
@@ -548,52 +570,10 @@ function Team() {
               </div>
             </div>
 
-              <div className="col"style={{visibility:"hidden"}}>
-              <div className="card">
-                <img
-                  src={Annadhu}
-                  className="card-img-top"
-                  alt="..."
-                  style={{
-                    height: "250px",
-                    width: "250px",
-                    borderRadius: "50%",
-                    margin: "auto",
-                  }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title" style={{ fontSize: "25px" }}>
-                  Anandhu
-                  </h5>
-                  <p className="card-text" style={{ fontSize: "20px" }}>
-                  Member <br/> Publicity
-                  </p>
-                </div>
-              </div>
-            </div>
 
           </div>
         </div>
     </section>
-
-
-    
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-      
- 
 
       <Footer />
     </div>
@@ -601,6 +581,5 @@ function Team() {
 }
 
 export default Team;
-
 
 
