@@ -11,7 +11,7 @@ function PaperDeails() {
             <div className="row">
                 <div className="col-md-12">
                     <p className=' ' style={{fontSize:"25px", textAlign:"center"}} >Format for paper presentation<a href='https://drive.google.com/file/d/1D4Lp5GMwaAFfgR_Z3tUbahUYDwLkLpOW/view?usp=drive_link'> Click here</a> </p>
-                    <p className='' style={{fontSize:"25px", textAlign:"center"}}>Submit your paper presentation<a href='https://docs.google.com/forms/d/e/1FAIpQLSf_jZ27HrpkXmOBeiahZqsjupLqehAI2yhFbBvya06vrmztJg/viewform'>here</a></p>
+                    <p className='' style={{fontSize:"25px", textAlign:"center"}}>Submit your paper presentation<a href='https://docs.google.com/forms/d/e/1FAIpQLSf_jZ27HrpkXmOBeiahZqsjupLqehAI2yhFbBvya06vrmztJg/viewform'> here</a></p>
                    
                 </div>
             </div>
