@@ -108,7 +108,7 @@ function ResearchDay() {
 </div>
  */}
 
-      <section className="py-5">
+      <section style={{ paddingTop:"48px" }}>
         <div className="container ">
           <div className="row">
             <div className="col-md-12">
@@ -121,8 +121,9 @@ function ResearchDay() {
       </section>
 
       <div
-        className="container py-5 "
+        className="container "
         style={{
+          paddingBottom : "48px" ,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
