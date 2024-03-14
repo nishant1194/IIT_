@@ -3,6 +3,8 @@ import Navbar from '../icl/Navbar'
 import Slider1 from '../icl/Slider1'
 import './Homee.css' ;
 import Footer from '../icl/Footer';
+import HomeBanner from '../images/HomePageBanner.jpeg'
+
 
 
 function Home() {
@@ -10,6 +12,16 @@ function Home() {
     <div>
       <Navbar />
       <Slider1 />
+
+          <section style={{marginTop:"60px"}}>
+        <div className="container ">
+                <div className='line2'></div>
+                    <div className='about' style={{textAlign:"center", marginTop:"4px",fontSize:"50px" , fontWeight:"500"}}>EE-Reseach Day 2024</div>
+                    <div className='line2'></div>
+                <img src={HomeBanner} alt="..." className='my-5' style={{width:"100%" ,height:"100%"}}/>
+                </div>
+      </section>
+
 
       <section style={{marginTop:"60px"}}>
         <div className="container ">
