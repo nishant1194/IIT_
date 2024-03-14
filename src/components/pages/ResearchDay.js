@@ -5,7 +5,7 @@ import "./ResearchDayy.css";
 import Footer from "../icl/Footer";
 import Poster from "../images/PosterRSFF.jpeg";
 import { Link } from "react-router-dom";
-import MorningSchedule from '../images/MorningSchedule.jpeg'
+import MorningSchedule from '../images/MorningSchedulee.jpeg'
 import EveningSchedule from '../images/EveningSchedule.jpeg'
 import ExpertTalkBanner from '../images/experTalkBanner24.jpg'
 function ResearchDay() {
