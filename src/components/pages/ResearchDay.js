@@ -4,6 +4,8 @@ import Slider1 from "../icl/Slider1";
 import "./ResearchDayy.css";
 import Footer from "../icl/Footer";
 import Poster from "../images/posterrr.jpeg";
+import MorningSchedule from '../images/MorningSchedule.jpeg'
+import EveningSchedule from '../images/EveningSchedule.jpeg'
 import { Link } from "react-router-dom";
 function ResearchDay() {
   return (
@@ -111,7 +113,7 @@ function ResearchDay() {
           <div className="row">
             <div className="col-md-12">
               <div className="line2"></div>
-              <h1 style={{ textAlign: "center" }}>Event Description</h1>
+              <h1 style={{ textAlign: "center" }}>Event Schedule</h1>
               <div className="line2"></div>
             </div>
           </div>
@@ -124,17 +126,23 @@ function ResearchDay() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          flexDirection:"column"
         }}
       >
         <img
           className="card-img-top"
-          src={Poster}
+          src={MorningSchedule}
+          alt="..."
+          // style={{ height:"auto", width: "auto" }}
+        />
+         <img
+          className="card-img-top"
+          src={EveningSchedule}
           alt="..."
           // style={{ height:"auto", width: "auto" }}
         />
         
       </div>
-
      
           <div className="container mx-60" style={{display:"flex" , alignItems:"center" , justifyContent:"center", fontSize: "25px", textAlign: "center", color:"black" }}>
             {" "}
