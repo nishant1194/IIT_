@@ -108,6 +108,41 @@ function ResearchDay() {
 </div>
  */}
 
+
+   <section className="py-5">
+        <div className="container ">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="line2"></div>
+              <h1 style={{ textAlign: "center" }}>Expert Talk</h1>
+              <div className="line2"></div>
+              <div
+        className="container py-5 "
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection:"column"
+        }}
+      >
+        <img
+          className="card-img-top"
+          src={ExpertTalkBanner}
+          alt="..."
+          style={{
+            width:"80%" ,
+            height:"90%"
+          }}
+          // style={{ height:"auto", width: "auto" }}
+        />
+        
+        
+      </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section style={{ paddingTop:"48px" }}>
         <div className="container ">
           <div className="row">
