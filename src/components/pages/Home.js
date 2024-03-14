@@ -27,7 +27,7 @@ function Home() {
 
       </section>
 
-      <section style={{marginTop:"60px"}}>
+      <section style={{marginTop:"60px" , marginBottom:"40px"}}>
         <div className="container ">
             <div className="row">
                 <div className="col-md-12">
@@ -62,10 +62,7 @@ function Home() {
       </section>
 
 
-      <section style={{display:"flex",alignItems:"center", justifyContent:"center", marginBottom:"50px"}}>
-      <a href="/researchday"><button type="button" className="buttonn" >To Register For EE-RSF'24 <br /> Click here</button></a>
-
-      </section>
+     
 
       <Footer />
 
