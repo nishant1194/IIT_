@@ -3,39 +3,50 @@ import Navbar from "../icl/Navbar";
 import Slider1 from "../icl/Slider1";
 import "./ResearchDayy.css";
 import Footer from "../icl/Footer";
-import Poster from "../images/posterrr.jpeg";
+import Poster from "../images/PosterRSFF.jpeg";
+import { Link } from "react-router-dom";
 import MorningSchedule from '../images/MorningSchedule.jpeg'
 import EveningSchedule from '../images/EveningSchedule.jpeg'
-import ExpertTalkBanner from '../images/expertTalkBanner.jpg'
-
-import { Link } from "react-router-dom";
+import ExpertTalkBanner from '../images/experTalkBanner24.jpg'
 function ResearchDay() {
   return (
     <div>
       <Navbar />
       <Slider1 />
 
-    {/*   <section className="py-5">
+      <section className="py-5">
         <div className="container ">
           <div className="row">
             <div className="col-md-12">
               <div className="line2"></div>
               <h1 style={{ textAlign: "center" }}>Expert Talk</h1>
               <div className="line2"></div>
-              <h1
-                style={{
-                  marginTop: "10px",
-                  fontStyle: "oblique",
-                  fontSize: "60px",
-                  textAlign: "center",
-                }}
-              >
-                Coming soon .....{" "}
-              </h1>
+              <div
+        className="container py-5 "
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection:"column"
+        }}
+      >
+        <img
+          className="card-img-top"
+          src={ExpertTalkBanner}
+          alt="..."
+          style={{
+            width:"80%" ,
+            height:"90%"
+          }}
+          // style={{ height:"auto", width: "auto" }}
+        />
+        
+        
+      </div>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/*<section >
     <div className="container py-5 ">
@@ -110,42 +121,7 @@ function ResearchDay() {
 </div>
  */}
 
-
-   <section className="py-5">
-        <div className="container ">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="line2"></div>
-              <h1 style={{ textAlign: "center" }}>Expert Talk</h1>
-              <div className="line2"></div>
-              <div
-        className="container py-5 "
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexDirection:"column"
-        }}
-      >
-        <img
-          className="card-img-top"
-          src={ExpertTalkBanner}
-          alt="..."
-          style={{
-            width:"80%" ,
-            height:"90%"
-          }}
-          // style={{ height:"auto", width: "auto" }}
-        />
-        
-        
-      </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section style={{ paddingTop:"48px" }}>
+<section >
         <div className="container ">
           <div className="row">
             <div className="col-md-12">
@@ -157,14 +133,15 @@ function ResearchDay() {
         </div>
       </section>
 
+
       <div
         className="container "
         style={{
-          paddingBottom : "48px" ,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          flexDirection:"column"
+          flexDirection:"column",
+          marginBottom:"30px"
         }}
       >
         <img
@@ -181,6 +158,7 @@ function ResearchDay() {
         />
         
       </div>
+
      
           <div className="container mx-60" style={{display:"flex" , alignItems:"center" , justifyContent:"center", fontSize: "25px", textAlign: "center", color:"black" }}>
             {" "}
