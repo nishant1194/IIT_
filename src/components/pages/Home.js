@@ -21,7 +21,11 @@ function Home() {
                 <img src={HomeBanner} alt="..." className='my-5' style={{width:"100%" ,height:"100%"}}/>
                 </div>
       </section>
+  
+    <section style={{display:"flex",alignItems:"center", justifyContent:"center", marginBottom:"50px"}}>
+      <a href="/researchday"><button type="button" className="buttonn" >For Event Details <br /> Click here</button></a>
 
+      </section>
 
       <section style={{marginTop:"60px"}}>
         <div className="container ">
