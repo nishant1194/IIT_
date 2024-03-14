@@ -6,6 +6,8 @@ import Footer from "../icl/Footer";
 import Poster from "../images/posterrr.jpeg";
 import MorningSchedule from '../images/MorningSchedule.jpeg'
 import EveningSchedule from '../images/EveningSchedule.jpeg'
+import ExpertTalkBanner from '../images/expertTalkBanner.jpeg'
+
 import { Link } from "react-router-dom";
 function ResearchDay() {
   return (
